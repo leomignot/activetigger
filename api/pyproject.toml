@@ -41,3 +41,6 @@ dependencies = ["fastapi[all]",
 
 [tool.mypy]
 ignore_missing_imports = true
+exclude = [
+	'^activetigger/api.py'
+]
